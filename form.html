@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Centro de Salud "Douglas Alanoca"</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css2.css">
+	<script>
+		function enviar ()
+		{
+			alert("Enviado sin problema")
+			alert("Tranquilo que al ser una página de prueba no se procesará datos a terceros")
+		}
+	</script>
+</head>
+
+<body>
+	<h1>HOJA DE MALESTARES</h1>
+
+	<form>
+		Ingrese su nombre completo: <input type="text" id="nombre"><br>
+		Edad: <input type="number" id="edad"><br>
+		Sexo: <select id="sexo">
+			<option value="mas">Masculino</option>
+			<option value="fem">Femenino</option>
+		</select><br>
+		Ingrese su correo: <input type="email" id="email"><br>
+		¿Cuál es tu principal dolencia?<br>
+		<textarea></textarea><br>
+		Tiempo de duración de la molestia <input type="date" id="fech1">a <input type="date" id="fech2"><br>
+		¿Te medicaste? <br><input type="radio" id="rad1"> por médicos <input type="radio" id="rad2"> por mi mism@ <br>
+		Por favor lista los medicamentos que tomaste (en un periodo de 6 meses atrás)<br>
+		<textarea></textarea><br>
+		Marca las condiciones que apliquen a tu historial
+		<br><input type="checkbox" id="check1">Cáncer <br><input type="checkbox" id="check1">Enfermedad cardíaca <br><input type="checkbox" id="check1">Hepatitis <br><input type="checkbox" id="check1">Enfermedad venérea/sexual <br><input type="checkbox" id="check1">Diabetes <br><input type="checkbox" id="check1">Presión arterial alta-Hipertensión <br><input type="checkbox" id="check1">Colesterol alto <br><input type="checkbox" id="check1">Enfermedad renal <br><input type="checkbox" id="check1">Enfermedad de tiroides <br><input type="checkbox" id="check1">Depresión <br><input type="checkbox" id="check1">Asma <br><input type="checkbox" id="check1">Alergias<br>
+		Por favor describa brevemente las condiciones que marcó<br>
+		<textarea></textarea><br><br>
+
+		<button onclick="enviar ()" class="boton">ENVIAR</button>
+	</form>
+	<audio src="sonidos/musasen.mp3" autoplay loop></audio>
+</body>
+</html>

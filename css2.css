@@ -1,0 +1,20 @@
+*{
+	color: white;
+	text-align: center;
+	padding:10px;
+	background-color: transparent;
+}
+body{
+	background-image: url(imagenes/hojas.gif);
+}
+h1{
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 45px;
+	background-color: black;
+}
+form{
+	background-color: #700D2B;
+	padding: 2%;
+	font-size: 20px;
+}
